@@ -1,0 +1,219 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "sans-serif";
+  background-image: linear-gradient(
+    to bottom,
+    #dadde2,
+    #bbbfc6,
+    #9ea1ab,
+    #828490,
+    #686876,
+    #626472,
+    #5b5f6e,
+    #555b6a,
+    #606c7a,
+    #6c7d89,
+    #798e97,
+    #889fa5
+  );
+}
+
+img {
+  max-width: 100;
+}
+
+header {
+  background-color: #474554;
+}
+
+.nav__list {
+  padding: 0.4rem;
+  background-color: #b1bdc5;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__link {
+  color: black;
+  text-transform: initial;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.nav__link:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  background-color: #889fa5;
+  height: 20rem;
+}
+
+.footer_image {
+  padding-bottom: 5rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.container-footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-footer div h2 {
+  color: black;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.social__logos {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3.2rem;
+}
+
+.container-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e4e454f;
+  padding: 20px;
+}
+
+/* Pag1 */
+
+#intro-section {
+  padding: 3rem 0 0 0;
+}
+
+.intro-box {
+  font-weight: 400;
+  font-size: 4.5rem;
+  color: black;
+  text-transform: capitalize;
+}
+
+.intro-title {
+  font-weight: 700;
+}
+
+.intro-text {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+/* Pag2 */
+
+.table-page__title {
+  padding: 3rem 0 0 0;
+  font-size: 1.5rem;
+  text-transform: inherit;
+  color: black;
+}
+
+.table-page__title-destacado {
+  font-weight: 600;
+}
+
+.table-page__text div p {
+  padding: 1rem 0 0;
+}
+
+.table-page__video {
+  padding: 2rem;
+}
+
+/* Pag3 */
+
+.faq__title {
+  padding: 1.3rem 0 0 0;
+  font-size: 1.2rem;
+  text-transform: inherit;
+  color: black;
+}
+
+.faq__text {
+  padding: 2rem;
+  text-align: left;
+}
+
+.faq__text h2 {
+  font-size: 1.1rem;
+  padding: 0.8rem;
+}
+
+/* Pag4 */
+
+.sobre-nosotros__intro {
+  padding: 1.3rem 0 0 0;
+  text-transform: inherit;
+  color: black;
+}
+
+.sobre-nosotros__intro p {
+  padding: 0.9rem;
+}
+
+.sobre-nosotros__image {
+  padding: 0.9rem;
+}
+
+.sobre-nosotros__video {
+  padding: 0.9rem;
+}
+
+/* Pag5 */
+
+.contact-text {
+  padding: 1.3rem 0 0 0;
+}
+
+.contact-text__icons {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text__icons i {
+  padding: 0.3rem;
+}
+
+.contact-text__destacado {
+  font-size: 1.2rem;
+  color: #474554;
+  font-weight: 600;
+}
+
+.contact-box {
+  color: black;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.contact-box div {
+  padding: 0.5rem;
+}
