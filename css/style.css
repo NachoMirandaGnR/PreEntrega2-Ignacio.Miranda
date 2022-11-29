@@ -36,7 +36,7 @@ header {
   background-color: #b1bdc5;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .nav__link {
@@ -45,7 +45,6 @@ header {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  display: inline-block;
 }
 
 .nav__link:hover {
@@ -136,10 +135,12 @@ header {
 
 .table-page__title-destacado {
   font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .table-page__text div p {
   padding: 1rem 0 0;
+  font-size: 1.15rem;
 }
 
 .table-page__video {
