@@ -27,63 +27,44 @@
 
     <title>Amores Perros</title>
   </head>
-  <body>
+  <body class="wrap">
     <header>
-      <div>
-        <div class="header__logo">
-          <a href="index.html">
-            <!-- LOGO AP -->
-            <img
-              src="img/46a7f736c3f545fa81978b78c61bb3ec.png"
-              alt="Logo Amores Perros"
-            />
-          </a>
-        </div>
-
-        <nav>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="pages/tabla_de_talles.html"
-                >Tabla de Talles</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="pages/preguntas_frecuentes.html"
-                >Preguntas Frecuentes</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="pages/sobre_nosotros.html"
-                >Sobre Nosotros</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="navbar">
+        <h2 class="navbar__logo">
+          A <span class="navbar__logo--span">P</span>
+        </h2>
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="index.html">Inicio</a></li>
+          <li>
+            <a class="nav__link" href="pages/tabla_de_talles.html"
+              >Tabla de Talles</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="pages/preguntas_frecuentes.html"
+              >Preguntas Frecuentes</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="pages/sobre_nosotros.html"
+              >Sobre Nosotros</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <section id="intro-section">
+    <section>
       <div class="container">
-        <div>
-          <img
-            class="intro.image"
-            src="img/perro_canchero.jpg"
-            alt="perro-con-gafas-de-sol"
-          />
+        <div class="intro-image">
+          <img src="img/perro_canchero.jpg" alt="perro-con-gafas-de-sol" />
         </div>
         <div>
           <h1 class="intro-box">
-            <span class="intro-title">Amores Perros</span>
-            <span class="intro-text"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              magni sapiente non doloribus molestias eveniet quidem sit, commodi
-              laborum cupiditate obcaecati vero consectetur, aliquid cumque
-              voluptates.</span
-            >
+            <span>Amores Perros</span>
           </h1>
         </div>
       </div>
@@ -104,7 +85,7 @@
             <img src="img/medios_de_pago.png" alt="medios-de-pago" />
           </div>
 
-          <div>
+          <div class="contact-icons">
             <h2>Contacto</h2>
             <a href="#"><i class="fa-solid fa-phone"></i></a>
             <a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a>

@@ -29,44 +29,39 @@
   </head>
   <body>
     <header>
-      <div>
-        <div class="header__logo">
-          <a href="../index.html">
-            <!-- LOGO AP -->
-            <img
-              src="../img/46a7f736c3f545fa81978b78c61bb3ec.png"
-              alt="Logo Amores Perros"
-            />
-          </a>
-        </div>
+      <nav class="navbar">
+        <h2 class="navbar__logo">
+          A <span class="navbar__logo--span">P</span>
+        </h2>
 
-        <nav>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="../index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="tabla_de_talles.html"
-                >Tabla de Talles</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="preguntas_frecuentes.html"
-                >Preguntas Frecuentes</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="sobre_nosotros.html">Sobre Nosotros</a>
-            </li>
-            <li>
-              <a class="nav__link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="../index.html">Inicio</a></li>
+          <li>
+            <a class="nav__link" href="../pages/tabla_de_talles.html"
+              >Tabla de Talles</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="../pages/preguntas_frecuentes.html"
+              >Preguntas Frecuentes</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="../pages/sobre_nosotros.html"
+              >Sobre Nosotros</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="container">
-      <div class="contact-text">
+
+    <section class="container-p5">
+      <div>
         <h1>Contacto</h1>
-        <p>
+        <p class="contact-text">
           Comunicate con nosotros
           <span class="contact-text__destacado">24/7!</span>
         </p>
@@ -80,52 +75,14 @@
 
       <div class="contact-box">
         <form action="">
-          <fieldset>
-            <div>
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre" />
-            </div>
-
-            <div>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-
-            <div>
-              <label for="telefono">Telefono (Opcional)</label>
-              <input type="number" name="telefono" id="telefono" />
-            </div>
-
-            <div>
-              <div>Sexo de su Mascota</div>
-              <div>
-                Macho
-                <input type="radio" name="sexo" value="macho" />
-                <input type="radio" name="sexo" value="hembra" />
-                Hembra
-              </div>
-            </div>
-
-            <div>
-              <label for="mensaje">Mensaje (Opcional)</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="60"
-                rows="10"
-              ></textarea>
-            </div>
-
-            <div>
-              <input type="submit" value="Enviar Mensaje" />
-              <input type="reset" value="Borrar Mensaje" />
-            </div>
-
-            <div>
-              <input type="checkbox" name="acepta" id="acepta" value="1" />
-              Acepta los terminos y condiciones
-            </div>
-          </fieldset>
+          <input type="text" name="Nombre" placeholder="Nombre" />
+          <input type="email" name="Email" placeholder="Email" />
+          <input type="tel" name="Telefono" placeholder="Teléfono" />
+          <textarea
+            name="mensaje"
+            placeholder="Escriba aqui su mensaje"
+          ></textarea>
+          <input class="send-button" type="Button" value="Enviar" />
         </form>
       </div>
     </section>
